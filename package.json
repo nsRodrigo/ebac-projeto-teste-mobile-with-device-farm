@@ -1,0 +1,37 @@
+{
+  "name": "teste-mobile-with-device-farm",
+  "version": "1.0.0",
+  "description": "Executar testes mobile utiliando browser stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsRodrigo/teste-mobile-with-device-farm.git"
+  },
+  "author": "Rodrigo Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsRodrigo/teste-mobile-with-device-farm/issues"
+  },
+  "homepage": "https://github.com/nsRodrigo/teste-mobile-with-device-farm#readme",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.21.0",
+    "@wdio/appium-service": "^8.21.0",
+    "@wdio/browserstack-service": "^8.21.0",
+    "@wdio/cli": "^8.21.0",
+    "@wdio/local-runner": "^8.21.0",
+    "@wdio/mocha-framework": "^8.21.0",
+    "@wdio/spec-reporter": "^8.21.0",
+    "appium": "^2.2.1",
+    "appium-uiautomator2-driver": "^2.34.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "wdio-wait-for": "^3.0.7"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.24.1"
+  }
+}
